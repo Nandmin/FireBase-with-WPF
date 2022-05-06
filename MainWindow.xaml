@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,-222,-81" RenderTransformOrigin="-0.908,0.488" Background="#FFCBC1C1" MinWidth="1000" MinHeight="500">
+        <Label Content="Összeg" HorizontalAlignment="Left" Margin="51,51,0,0" VerticalAlignment="Top" Width="60"/>
+        <TextBox Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="153,54,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Button Name="btn_collection" Content="Create/Update Data" HorizontalAlignment="Left" Margin="36,332,0,0" VerticalAlignment="Top" Width="173" FontSize="14" Click="Button_Click"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="153,95,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="btn_document" Content="Create/Update Collection" HorizontalAlignment="Left" Margin="251,332,0,0" VerticalAlignment="Top" Width="192" RenderTransformOrigin="0.264,-1.23" FontSize="14" Click="btn_document_Click"/>
+        <Button x:Name="btn_query" Content="Query" HorizontalAlignment="Left" Margin="467,332,0,0" VerticalAlignment="Top" Width="75" FontSize="14" Click="btn_query_Click"/>
+        <Button x:Name="btn_UserData" Content="UserData" HorizontalAlignment="Left" Margin="563,332,0,0" VerticalAlignment="Top" Width="75" FontSize="14" Click="btn_UserData_Click"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="153,140,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="153,188,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="btn_getObject" Content="Get Object" HorizontalAlignment="Left" Margin="666,332,0,0" VerticalAlignment="Top" Width="75" FontSize="14" Click="btn_getObject_Click"/>
+
+    </Grid>
+</Window>
